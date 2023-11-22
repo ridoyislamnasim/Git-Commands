@@ -1,0 +1,7 @@
+1. Fetch Remote Changes: 
+git fetch origin
+
+2. Rebase or Merge:
+Rebase = git rebase origin/main
+
+Merge = git merge origin/main

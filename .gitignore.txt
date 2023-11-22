@@ -1,0 +1,15 @@
+filename-to-ignore.txt   = ignore a specific file
+directory-to-ignore/	 = ignore all files in a specific directory
+*.log *.txt 		 = ignore files with a specific extension
+directory-to-ignore//	 = ignore a specific directory and its contents, add the directory name with a double trailing slash
+**/*.ext		 = ignore all files with a specific extension in any 
+			   directory (matches all files with the .ext extension in any directory or subdirectory recursively within your project.)
+	
+
+
+git add .gitignore
+git commit -m "Add node_modules to .gitignore"
+
+==>> If you have already pushed a file (filename.txt) to a Git repository and you want to remove it
+git rm filename.txt
+git commit -m "Remove filename.txt"

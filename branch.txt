@@ -1,0 +1,24 @@
+==============create Branch ===================
+git branch 			--> show all branch
+git branch branch-name  	-->create new branch
+git switch branch-name 		-->switch this branch
+git checkout branch-name 	-->switch this branch
+
+*** git checkout -b branch-name -->create_new_branch and switch_this_branch
+** git merge branch-name 	--> stile master branch
+* git branch -D branch-name	--> delete branch
+
+==============Delete Branch ===================
+Delete the local branch
+git branch -d branchname  # Safe delete (prevents deletion if unmerged changes exist)
+git branch -D branchname  # Force delete (deletes branch regardless of unmerged changes)
+
+Delete the remote branch:
+git push origin --delete branchname
+
+==============Diff Branch ===================
+git diff master..branch1
+
+==============Merge Branch ===================
+git merge branch1 //this add branch1 change and new create 
+

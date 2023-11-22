@@ -1,0 +1,143 @@
+    
+pwd
+
+working --> stage --> local Repository-------------->       
+           LOCAL                                       REMOTE
+
+***
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+1. git init (git monitor all changes in this file)
+
+  git clone gitLink ()
+
+  git status (any change to show)
+
+2.working --> stage
+   git add --all (all go stage)
+   git add -A
+
+---git add . (go stage only this file)
+
+   git add *  (all go stage accept delete file)
+
+   git add myfile/file.txt (only this file go stage)
+   git add *.txt
+working <-- stage
+   git reset 
+
+3.stage --> local Repository
+   git commit -m "coment to what we change"
+
+4. working <-- local Repository
+   git reset HEAD~ (all info come working state)
+   git reset --hard
+
+
+
+
+
+importent comment :
+1.git config --global user.name "ridoy"
+  git config --global user.email "ridoyislamnasim@gamil.com"
+2.git add . ->stage all file
+
+
+itgit init ->connect in git to file
+ -----------config-----------------
+git config --global user.name "ridoy"
+git config --global user.email "ridoyislamnasim@gamil.com"
+than check ----
+git config user.name
+git config user.email
+--
+git config  user.name "ridoy"
+git config  user.email "ridoyislamnasim@gamil.com"
+git config --list
+ git config --global --list
+
+---------------xx-----------------
+clear -> clean text
+--------------stage-------------clear
+git status -> show untracke na tracke file
+git add stage-file-name ->stage file
+git add --all ->stage allgit file
+git add . ->stage all file
+---------------xx-----------------
+---------------COMMIT-----------
+git commit ->commit tarminal on
+   i (ENTER) comment ->escape -> :x (ENTER)
+git commit -m "Comment-Here" -> commit short cut
+---------------xx-----------------
+---------------DETALIS AFTER COMMIT-----------
+git log ->details show commit 
+git log --oneline ->details show commit 
+---------------xx-----------------
+---------------CHECKOUT-----------
+git checkout id_number -> back to previous stages
+git checkout master  -> go to master branches
+---------------xx-----------------
+---------------diff-----------
+git diff -> latest changes shows(unstage)
+git diff --staged ->last changes show in(commit)
+git show id-number ->Shows this id-number changes
+git diff id-number(privious) id-number (after/now) ->differnt 2 stages
+---------------xx-----------------
+---------------remove/delete-----------
+git rm file.name -> remove file
+git reset HEAD file.name ->remove the staging area delete after
+  git 
+
+---------------xx-----------------
+---------------push github-----------
+git push origin main
+git push origin staging
+
+git remote add origin git@github.com:MDridoyislam/command.git
+git branch -M main
+git push -u origin main
+
+---------------git clone-----------     
+(option)clone or download ->(copy) link ->(wheae clone oprn command-prompt)
+git clone copy-link-past --> clone done
+git clone copy-link-past new-name --> file_new_name_ clone done
+
+git fetch
+git marge
+git pull ( git fetch + git marge)
+
+-------------->........ branch<<<<<<<<<<<<<<<-------------------
+git branch --> show all branch
+git branch branch-name -->create new branch
+git checkout branch-name -->switch this branch
+git switch branch-name -->switch this branch
+*** git checkout -b branch-name -->create_new_branch or switch_this_branch
+** git merge branch-name --> stile master branch
+* git branch -D branch-name --> delete branch
+
+git stash -->tamporaly hide this 
+git stash list --> show all hide file
+git stash pop -->back last hide file
+git stash pop stash@{?} -->back hide file ?->1,2,3,4,5,6,7
+git stash apply --> back hide file  
+
+git clean -f -n --> show ditails
+git clean -f --> delete file (unsatages)
+
+touch .gitignore -->help file
+*.fileExtansion --> this file type and save
+
+//connction 
+git remote -v -->which repository connect show 
+git remote add origin url --> coonect this url repository (https)
+git push origin branch_name --> not inisialige this branch after we use
+git push -u origin branch_name -->fist know that it origin branch than only call git push
+git push --> after set -u(upstream) than direct push work
+
+1. create a new repository on the command line
+2.push an existing repository from the command line
+	git remote add origin https://github.com/ridoyislamnasim/zgdf.git
+
+
+

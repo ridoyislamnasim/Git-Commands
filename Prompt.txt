@@ -1,0 +1,51 @@
+importent==>>
+dir -->> show this all folder
+cd folder_name -->>open new folder 
+cd .. -->>back previous folder
+cd ../.. -->>back two previous folder 
+
+
+SHORT__CUT ======>>>
+
+
+
+windows + r -> cmd -> ok(Enter)  -->> open command prompt
+propartes -> fond ->             -->> fond bigger
+
+color/?   -->show color
+color background_colorFond_color -->> color change
+color -->> defolt color
+ 
+cls -->>clear command prompt text
+
+----------->>>>> dir -->> show this all folder
+dir/a -->hiden file and ll folder show
+----------->>>>> cd folder_name -->>open new folder 
+----------->>>>> cd .. -->>back previous folder
+cd ../.. -->>back two previous folder 
+cd tab(select folder_name) -->> shortcut open folder
+cd (fist alphabet than)tab(select folder_name) -->> shortcut open folder
+mkdir folder_name -->> create open new folder
+----------->>>>> rmdir folder_name -->> delete folder(when folder is empty)
+rmdir /s folder_name -->> delete folder
+ 
+file_name.file_Extrention -->> create new file
+file_name.file_Extrention -->>open created file open
+----------->>>>> echo text > file_name.file_Extrention -->> write the file (>> 2nd line write)
+dir *.file_extrantion_name -->> show only this type file
+
+copy file_name.file_Extrention file_name.file_Extrention -->> 1st file to copy 2nd file
+move file_name.file_Extrention file_name.file_Extrention -->> 1st file to move 2nd file
+move folder_name folder_name -->> 1st folder move in 2nd folder
+dir >> file_name.file_Extrention 
+
+----------->>>>> type file_name.file_Extrention -->> read this file
+
+uparrow or downarrow-->> previos command 
+ctrl + left,right arrow -->> one word left right
+
+wmic logicaldisk get name -->> show all harddisk 
+----------->>>>> e: -->> go this disk
+----------->>>>>  tree -->> show all folder list tree
+
+  

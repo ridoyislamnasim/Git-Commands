@@ -1,0 +1,16 @@
+==============================================
+git clone
+==============================================    
+(option)clone or download ->(copy) link ->(wheae clone oprn command-prompt)
+git clone copy-link-past --> clone done
+git clone copy-link-past new-name --> file_new_name_ clone done
+
+=================
+cd example-repo
+================
+git add .
+git commit -m "Your commit message here"
+================
+git push -u origin master
+
+
